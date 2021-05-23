@@ -1,0 +1,8 @@
+# ==============================
+# = Application Configurations
+# ==============================
+spring:
+  cloud:
+    kubernetes:
+      config:
+        enabled: false

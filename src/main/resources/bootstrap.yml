@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: phone-management
+  cloud:
+    kubernetes:
+      config:
+        enabled: true
+        sources:
+          - name: phone-management
